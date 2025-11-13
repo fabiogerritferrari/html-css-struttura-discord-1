@@ -11,8 +11,8 @@
 }
 
 .container{
-    max-width: 1080px;
-    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .d-flex{
@@ -20,7 +20,7 @@
 }
 
 .h-test{
-    height: 400px;
+    height: 100px;
 }
 
 /* colors */
@@ -40,6 +40,30 @@
 
 /* header */
 
+header{
+    padding:20px 0px;
+}
+
+.login{
+    text-align: end;
+}
+
 ul{
     list-style: none;
+    gap: 1rem;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.top-bar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-10{
+    padding: 0.5rem 0.3rem;
+}
+
+.gr-2{
+    flex-grow: 1;
 }
