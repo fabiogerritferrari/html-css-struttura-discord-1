@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* Utilty */
+
+.border-dotted{
+    border: 2px dotted black;
+}
+
 .container{
     max-width: 1080px;
     width: 100%;
@@ -12,6 +18,27 @@
 .d-flex{
     display: flex;
 }
+
+.h-test{
+    height: 400px;
+}
+
+/* colors */
+
+.bg-cyan{background-color: #add8e6;}
+.bg-orange{background-color: #daa520;}
+.bg-blue{background-color: #00008b;}
+.bg-pink{background-color: #ee82ee;}
+.bg-lblue{background-color: #1e90ff;}
+.bg-lpink{background-color: #ffc0cb;}
+.bg-grey{background-color: #d3d3d3;}
+.bg-green{background-color: #228b22;}
+.bg-salmon{background-color: #f08080;}
+.bg-dcyan{background-color: #20b2aa;}
+.bg-lcyan{background-color: #7fffd4;}
+.bg-dgrey{background-color: #23272a;}
+
+/* header */
 
 ul{
     list-style: none;
