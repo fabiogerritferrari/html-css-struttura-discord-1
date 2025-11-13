@@ -90,3 +90,7 @@ ul{
 .col-small{
     flex-basis: 35%;
 }
+
+.col-bigger{
+    flex-basis: 100%;
+}
