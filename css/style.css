@@ -25,7 +25,7 @@
     height: 400px;
 }
 
-.paddingtb-20{
+.padding-y-20{
     padding:20px 0px;
 }
 
@@ -65,7 +65,7 @@ ul{
     align-items: center;
 }
 
-.p-10{
+.padding-topbar{
     padding: 0.5rem 0.3rem;
 }
 
@@ -93,4 +93,40 @@ ul{
 
 .col-bigger{
     flex-basis: 100%;
+}
+
+/* ?footer */
+
+.col-30{
+    flex-basis: 30%;
+}
+
+.col-70{
+    flex-basis:70%;
+}
+
+.col-25{
+    flex-basis:25%;
+}
+
+.bg-salmon{
+    border-color: white;
+}
+
+footer section{
+    border-bottom: 2px solid white;
+}
+
+.copyright-content{
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px 0px;
+}
+
+.copyright{
+    padding-bottom: 0px;
+}
+
+.padding-button{
+    padding: 0.1rem 0.3rem;
 }
